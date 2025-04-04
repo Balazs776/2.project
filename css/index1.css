@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: hsla(67, 17%, 38%, 0.747);
+    height: 10%;
+    width: 100%;
+}
+
+img:nth-of-type(1) {
+    width: 10%;
+    height: 10%;
+}
+
