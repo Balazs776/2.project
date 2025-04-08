@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    min-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    min-width: 400px;
+    margin-top: 25px;
+}
+
+.wrapper {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    min-width: 400px;
+    margin-top: 50px;
+}
+
+.book1 {
+    background-color:  #E8D5B5;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.book2 {
+    background-color:  #E8D5B5;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.book3 {
+    background-color:  #E8D5B5;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.book1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.book2 img {
+    height: 50px;
+    width: 50px;   
+}
+
+.book3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.line {
+    background-color: black;
+    width: 95%;
+    height: 1px;
+    margin: auto;
+}
+
+.books {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.bookline1 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+.bookline2 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+.bookline3 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+.bookline4 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+.bookline5 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+.bookline6 {
+    width: 50%;
+    height: 1px;
+    margin-left: 50%;
+}
+
+
+.könyv {
+    text-align: right;
+    position: relative;
+    right: 10%;
+    min-width: 400px;
+}
+
+.image {
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
