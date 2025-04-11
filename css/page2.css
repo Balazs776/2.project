@@ -69,61 +69,122 @@ p {
     width: 95%;
     height: 1px;
     margin: auto;
-}
-
-.books {
-    display: flex;
-    row-gap: 20px;
-    flex-direction: column;
-}
+}  
 
 .bookline1 {
-    width: 50%;
+    position: relative;
+    bottom: 40vw;
+    width: 60%;
     height: 1px;
-    margin-left: 20%;
+    margin-left: 40%;
+    background-color: black;
 }
 
 .bookline2 {
-    width: 50%;
+    position: relative;
+    bottom: 32vw;
+    width: 60%;
     height: 1px;
-    margin-left: 20%2
+    margin-left: 40%;
+    background-color: black;
 }
 
 .bookline3 {
-    width: 50%;
+    position: relative;
+    bottom: 34vw;
+    width: 60%;
     height: 1px;
-    margin-left: 20%;
+    margin-left: 40%;
+    background-color: black;
 }
 
 .bookline4 {
-    width: 50%;
+    position: relative;
+    bottom: 33vw;
+    width: 60%;
     height: 1px;
-    margin-left: 20%;
+    margin-left: 40%;
+    background-color: black;
 }
 
 .bookline5 {
-    width: 50%;
+    position: relative;
+    bottom: 25vw;
+    width: 60%;
     height: 1px;
-    margin-left: 20%;
+    margin-left: 40%;
+    background-color: black;
 }
 
 .bookline6 {
-    width: 50%;
-    height: 1px;
-    margin-left: 20%;
-}
-
-
-.könyv {
-    text-align: right;
     position: relative;
-    right: 10%;
-    min-width: 400px;
+    bottom: 37vw;
+    width: 60%;
+    height: 1px;
+    margin-left: 40%;
+    background-color: black;
 }
 
+
+.könyv1 {
+    position: relative;
+    text-align: right;
+    bottom: 40vw;
+    right: 2%;
+    width: 400px;
+    font-size: medium;
+}
+
+.könyv2 {
+    position: relative;
+    text-align: right;
+    bottom: 32vw;
+    right: 2%;
+    width: 500px;
+    font-size: medium;
+}
+
+.könyv3 {
+    position: relative;
+    text-align: right;
+    bottom: 34vw;
+    right: 2%;
+    width: 100%;
+    font-size: medium;
+}
+
+.könyv4 {
+    position: relative;
+    text-align: right;
+    bottom: 33vw;
+    right: 2%;
+    width: 500px;
+    font-size: medium;
+}
+
+.könyv5 {
+    position: relative;
+    text-align: right;
+    bottom: 25vw;
+    right: 2%;
+    width: 500px;
+    font-size: medium;
+}
+
+.könyv6 {
+    position: relative;
+    text-align: right;
+    bottom: 37vw;
+    right: 2%;
+    width: 500px;
+    font-size: medium;
+}
 .image {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     margin-top: 10px;
     margin-left: 10%;
+    display: inline-block;
+    flex-direction: row;
+    gap: 20px;
 }
