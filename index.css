@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body { 
     margin: 0;
     padding: 0;
@@ -9,59 +14,93 @@ body {
 .header {
   display: none;
 }
-  
-  .dropbtn {
-    background-color: #757956;
-    padding: 0;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .header2 {
-    overflow: hidden;
-    width: 100%;
-    background-color: #757956;
-    padding: 20px 10px;
-    display: block;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
 
 .menuicon {
-  width: 50px;
-  margin: 20px;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+}
+  
+.dropbtn {
+  background-color: #757956;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
 }
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    background-color: #999f71;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #888d65;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #757956;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: 0px 0px 15px #6d6e46;
+}
+
+.hatterkep {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.header2 {
+  overflow: hidden;
+  width: 100%;
+  background-color: #757956;
+  padding: 20px 10px;
+  display: block;
+  position: relative;
+}
+
+.cim {
+  color: white;
+  margin-top: 40px;
+  font-size: 35px;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+
+}
 
   @media only screen and (min-width: 600px) {
     .header {
