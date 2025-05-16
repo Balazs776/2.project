@@ -147,7 +147,7 @@ p {
 .flexbook {
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  gap: 10%;
 }
   
  .image {
@@ -167,7 +167,7 @@ p {
   background-color: black;
  }
 
-  .szöveg: {
+  .szöveg {
     height: auto;
     flex-wrap: wrap;
     flex-direction: column;
@@ -314,16 +314,53 @@ footer {
   #C3 {
     display: block;
   }
-  #link {
+  #link:not(li) {
     display: block;
     position: relative;
-    top: 2vw;
-    left: 2%;
+    right: 2%;
+    bottom: 13vw;
+    max-width: 20%;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: black;
+    color: black;
   }
   .ar {
     display: block;
+    font-weight: bold;
   }
   .cim {
     display: block;
+  }
+  li, ul {
+    display: block;
+    position: relative;
+    top: 13vw;
+    left: 2%;
+  }
+  .flexbook {
+    gap: 15%;
+    margin-left: 20%;
+    max-width: 40%;
+    
+  }
+  .footertext{
+    right: 10%;
+  }
+  .footertext1 {
+    display: inline-block;
+    color: black;
+    position: relative;
+    left: 50%;
+    font-size: large;
+  }
+  .footertext2 {
+    display: inline-block;
+    color: black;
+    position: relative;
+    left: 55%;
+    font-size: large;
   }
 }
