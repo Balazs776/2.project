@@ -115,10 +115,18 @@ body {
   text-align: center;
   display: block;
   border: 0;
-  top: 48%;
+  top: 80vw;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.gomb1:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.gomb2:hover {
+  background-color: rgb(184, 184, 184);
 }
 
 .gomb2 {
@@ -131,35 +139,50 @@ body {
   color: rgb(0, 0, 0);
   text-align: center;
   display: block;
-  top: 41%;
+  top: 95vw;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .velemeny1 {
+  text-align: center !important;
+  font-size: 75%;
+  padding: 50px;
+  z-index:5;
+  margin-top: 95vw;
+}
+
+.velemeny2 {
   text-align: center;
   font-size: 75%;
   padding: 50px;
   z-index:5;
-  margin-top: 88%;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-top: 10vw;
+}
+
+.velemeny3 {
+  text-align: center; 
+  font-size: 1vw;
+  padding: 50px;
+  z-index:5;
+  margin-top: -16vw;
+  margin-left: 38vw;
+  width: 25vw;
 }
 
 .nyil2 {
   width: 35px;
   position: absolute;
-  margin-top: 108%;
+  margin-top: 115vw;
   margin-left: 8px;
 } 
 
 .nyil1 {
   width: 35px;
   position: absolute;
-  margin-top: 108%;
-  margin-left: 90%;
-  margin-right: 90%;
+  margin-top: 115vw;
+  margin-left: 90vw;
 }
 
 .yap {
@@ -169,16 +192,22 @@ body {
 .martonv {
   width: 50px;
   position: absolute;
-  margin-top: -10%;
+  margin-top: -7vw;
   margin-left: 32%;
+}
+
+.gomb3 {
+  display: none;
+}
+
+.gomb4 {
+  display: none;
 }
 
 .martonvnev {
   position: absolute;
-  margin-top: 134%;
-  font-size: 75%;
-  font-size: 20px;
-  margin-left: 48%;
+  margin-top: 135vw;
+  left: 50%;
 }
 
   @media only screen and (min-width: 600px) {
@@ -195,6 +224,7 @@ body {
       position: absolute;
       margin-left: 32%;
     }
+
     
     .martonvnev {
       position: absolute;
@@ -204,25 +234,38 @@ body {
     }
 
     .velemeny1 {
-      text-align: center;
-      font-size: 75%;
+      font-size: 1vw;
       padding: 50px;
       z-index:5;
-      margin-left: 1%;
-      margin-right: 1%;
-        }
-    
+      margin-top: 18vw;
+      width: 25vw;
+      margin-left: 5vw;
+    }
+
+    .velemeny2 {
+      font-size: 1vw;
+      padding: 50px;
+      z-index:5;
+      margin-top: -16vw;
+      margin-left: 35vw;
+      width: 25vw;
+    }
+
+    .velemeny3 {
+      font-size: 1vw;
+      padding: 50px;
+      z-index:5;
+      margin-top: -12vw;
+      margin-left: 65vw;
+      width: 25vw;
+    }
+
     .nyil2 {
-      width: 35px;
-      position: absolute;
-      margin-left: 8px;
+      display: none;
     } 
     
     .nyil1 {
-      width: 35px;
-      position: absolute;
-      margin-left: 90%;
-      margin-right: 90%;
+      display: none;
     }
 
     .header p {
@@ -267,6 +310,7 @@ body {
       margin: 75px;
       display: block;
       margin-left: 55%;
+      box-sizing: border-box;
     }
 
     .header2 {
@@ -279,28 +323,56 @@ body {
 
     .yap {
       width: 41%;
-      font-size: 160%;
+      font-size: 1.2vw;
       margin-left: 7%;
-      margin-top: 115px;
+      margin-top: 130px;
       max-height: 700px;
       display: block;
       margin-bottom: 0px;
     }
 
     .gomb1 {
-      margin-left: -27%;
-      width: 120px;
-      height: 60px;
-      font-size: 20px;
-      margin-top: 18%;
+      display: none;
     }
 
     .gomb2 {
-      margin-left: -18%;
-      width: 120px;
-      height: 60px;
-      margin-top: 21.5%;
-      font-size: 20px;
+      display: none;
     }
 
+    .gomb4 {
+      z-index: 100;
+      position: absolute;
+      font-size: 1vw;
+      width: 6vw;
+      height: 3vw;
+      background-color: rgb(53, 53, 53);
+      color: white;
+      display: block;
+      border: 0;
+      left: 18vw;
+      top: 35vw;
+    }
+    
+    .gomb4:hover {
+      background-color: rgb(95, 95, 95);
+    }
+    
+    .gomb3:hover {
+      background-color: rgb(163, 163, 163);
+    }
+
+    
+    .gomb3 {
+      border: 0;
+      z-index: 100;
+      position: absolute;
+      font-size: 1vw;
+      width: 6vw;
+      height: 3vw;
+      background-color: rgb(209, 209, 209);
+      color: rgb(0, 0, 0);
+      display: block;
+      left: 30vw;
+      top: 35vw;
+    }
   }
