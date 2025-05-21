@@ -147,7 +147,7 @@ p {
 .flexbook {
   display: flex;
   align-items: flex-start;
-  gap: 10%;
+  gap: 15%;
 }
   
  .image {
@@ -171,7 +171,6 @@ p {
     height: auto;
     flex-wrap: wrap;
     flex-direction: column;
-    text-align: right;
     max-width: 100%;
     min-width: 200px;
 }   
@@ -341,9 +340,9 @@ footer {
     left: 2%;
   }
   .flexbook {
-    gap: 15%;
+    gap: 10%;
     margin-left: 20%;
-    max-width: 40%;
+    max-width: 80%;
     
   }
   .footertext{
