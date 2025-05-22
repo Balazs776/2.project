@@ -280,13 +280,23 @@ footer {
     font-weight: bold;
     text-shadow: 0px 0px 15px #6d6e46;
   }
-
+  
+  .link {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 0px 15px #6d6e46;
+    text-decoration: none;
+  }
   
   .header p:hover {
     transition: 0.2s;
     background-color: #999f71;
     box-shadow: 2px 2px 5px black;
     color: black;
+  }
+
+  #p6 {
+    font-size: 150%;
   }
 
   .header-right {

@@ -290,12 +290,18 @@ body {
       display: none;
     }
     
-    .header p.p1 {
+    .header a .p1 {
       font-size: 35px;
       font-weight: bold;
       text-shadow: 0px 0px 15px #6d6e46;
     }
-  
+
+    .link {
+      color: black;
+      font-weight: bold;
+      text-shadow: 0px 0px 15px #6d6e46;
+      text-decoration: none;
+    }
     
     .header p:hover {
       transition: 0.2s;
@@ -378,6 +384,10 @@ body {
       display: block;
       left: 30vw;
       top: 35vw;
+    }
+
+    #p6 {
+      font-size: 150%;
     }
   }
 
